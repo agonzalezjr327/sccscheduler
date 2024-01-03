@@ -1,0 +1,26 @@
+
+
+// Project theme colors
+$primary: rgb(0, 170, 194);
+$secondary: rgb(41, 41, 241);
+$success: turquoise;
+$info: aquamarine;
+$warning: rgb(190, 231, 41);
+$danger: rgb(196, 23, 161);
+$dark: rgb(17, 122, 220);
+$light: lightblue;
+
+
+// Map our project theme colors into Bootstrap
+$theme-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+	"success": $success,
+	"info": $info,
+	"warning": $warning,
+	"danger": $danger,
+	"light": $light,
+	"dark": $dark
+);
+
+

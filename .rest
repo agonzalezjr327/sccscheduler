@@ -1,0 +1,62 @@
+# POST http://localhost:3000/api/person/signin HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "email": "admin@admin",
+#     "password": "admin"
+# }
+
+
+# POST http://localhost:3000/api/person/update HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "id": "63e417804b4a0e2aa05170dd",
+#     "name": "Arnulfo Gonzalez Jr",
+#     "adc": "193277",
+#     "bedSpace": "404L",
+#     "releaseDate": "05/28/2024"
+# }
+
+
+# GET http://localhost:8080/api/person/students HTTP/1.1
+# Authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIzNCwiaWF0IjoxNjg1NTQzNjczLCJleHAiOjE2ODU1NDcyNzN9.BGDbgpazhAiAtu32AYX6rADQUF52l4Or0fP6fuKPCTY"
+
+# GET http://localhost:3000/api/class/classes HTTP/1.1
+# Authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIzNCwiaWF0IjoxNjg2MjM2MDM5LCJleHAiOjE2ODYyMzk2Mzl9.8_SbjJNXAHRsZ5F0vHaCeAOcJf9t4QTSbVuuPrcwkXU"
+
+# POST http://localhost:3000/api/person/createstudent HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "name": "Test",
+#     "adc": "123456",
+#     "bedSpace": "111L",
+#     "releaseDate": "11/11/1111",
+#     "rss": false
+# }
+
+# POST http://localhost:3000/api/person/removerss HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "id": "63e8ec028deb6f1768d4cfed"
+# }
+
+# POST http://localhost:3000/api/class/createclass HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "classname": "TEST5",
+#     "sessions": 1,
+#     "hours": 1,
+#     "classroom": "Gym",
+#     "startDate": "06/07/2023",
+#     "endDate": "06/17/2023",
+#     "instructor": ["63e417804b4a0e2aa05170dd"],
+#     "startTime": "09:00",
+#     "endTime": "10:00",
+#     "students": ["63e416effe68c5b55aa4fadd"],
+#     "days": ["Tuesday"]
+# }
+
